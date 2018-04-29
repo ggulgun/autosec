@@ -1,0 +1,5 @@
+Flask_Limiter==1.0.1
+Flask==1.0
+Flask_Cors==3.0.4
+docker==3.3.0
+docker-pycreds==0.2.3
