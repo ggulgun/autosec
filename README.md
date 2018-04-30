@@ -14,3 +14,27 @@ python
 docker
 pip install -r requirements.txt
 ```
+
+### Installing
+
+
+```
+yum -y install docker-io
+yum -y install docker
+```
+
+### Sample run
+
+In project directory
+
+```
+flask run
+```
+
+### Sample initial task
+
+```
+curl -X POST http://127.0.0.1:5000/scan --form "repository=aHR0cHM6Ly9naXRodWIuY29tL0plbXVyYWkvdHJpYWdlLmdpdA=="
+
+curl -X POST http://127.0.0.1:5000/logs --form "name=trial"
+```
