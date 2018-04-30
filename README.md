@@ -22,6 +22,11 @@ pip install -r requirements.txt
 yum -y install docker-io
 yum -y install docker
 ```
+### Before run
+Enter docker image directory
+```
+docker build -t autosec .
+```
 
 ### Sample run
 
