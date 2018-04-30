@@ -33,6 +33,7 @@ docker build -t autosec .
 In project directory
 
 ```
+export FLASK_APP=autosec.py
 flask run
 ```
 
