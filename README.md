@@ -1,5 +1,5 @@
 # Autosec
-Autosec is autonomous application security engine based on owasp/glue
+Autosec is autonomous application security engine based on owasp/glue.
 
 ## Getting Started
 
